@@ -57,7 +57,7 @@ jobs:
             Library-test-project-
             Library-
       # https://github.com/game-ci/unity-test-runner/releases/
-      - uses: timewarpinc/unity-test-runner@v2
+      - uses: timewarpinc/unity-test-runner@d344c1c82948e98c2482683c60fc5d04006ae8cb
         id: testRunner
         with:
           projectPath: ${{ env.PROJECT_PATH }}
