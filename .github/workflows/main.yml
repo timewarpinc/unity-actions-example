@@ -1,6 +1,7 @@
 name: Unity Actions
 
 on:
+  workflow_dispatch: {}
   pull_request: {}
   push: {}
 
